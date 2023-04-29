@@ -102,6 +102,7 @@ class EpubSorter:
         shutil.copy(old_path, new_path)
 
     def create_new_book_path(self, metadata, file):
+
         if "ebooklib" in self.good_parse:
             data = metadata["ebooklib"]
             title = data["title"]
@@ -246,9 +247,7 @@ class EpubSorter:
         return new_path
 
 
-if __name__ == "__main__":
-    from pathvalidate import sanitize_filename, sanitize_filepath, validate_filepath
+# if __name__ == "__main__":
+#     l = EpubSorter(r"/home/Downloads",r"/home/Downloads/sorted")
 
-    l = EpubSorter(r"D:\books", r"D:\epub_test_")
-
-    l.start_book_sorter()
+#     l.start_book_sorter()
