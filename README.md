@@ -37,4 +37,6 @@ sorter.start_book_sorter()
 - [ ] Use isbn the get accurate metadata
 - [ ] fix lectors author metadata
 - [ ] package into a pip package
+- [ ] add series to path?
+ 
  
