@@ -16,7 +16,14 @@ pip install -r requirements.txt
 
 ## Usage:
 ```python
+# To move books to the new directory
 sorter = EpubSorter(r"/home/Downloads",r"/home/Downloads/sorted")
+sorter.start_book_sorter()
+```
+or
+```python
+# To copy books to the new directory
+sorter = EpubSorter(r"/home/Downloads",r"/home/Downloads/sorted", copy_file=True)
 sorter.start_book_sorter()
 ```
 
