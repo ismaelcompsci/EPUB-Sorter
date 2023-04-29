@@ -6,6 +6,12 @@ depends on three epub parsers :
 
 it gathers the metadata from whichever parser can actually parse the epub
 
+```
+D:\oldBooks\Raymond Feist - [The Riftwar Saga 04] - A Darkness at Sethanon.epub
+->
+D:\newBooks\Raymond Feist\A Darkness at Sethanon\Raymond Feist - [The Riftwar Saga 04] - A Darkness at Sethanon.epub
+               ^Author           ^Title                    ^Original File Name
+```
 
 ## Installation:
 
